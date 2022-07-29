@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <link rel="stylesheet" href="styles.css">
+  
+  <title>Frontend Mentor | Intro section with dropdown navigation</title>
+</head>
+<body>
+  <header>
+
+    <a href="#" aria-label="logo"> <img src="/images/logo.svg" class="logo"> </a>
+
+    <div class="menu">
+      <img src="/images/icon-menu.svg" alt="hamburger-icon menu-open" class="open-menu">
+      <img src="/images/icon-close-menu.svg" alt="times-icon menu-close" class="close-menu">
+    </div>
+
+    <nav>
+      <ul class="nav-links">
+        <li class="nav-link">
+     <a href="#" class="dropdown"> 
+      <span>Features </span>
+    <img src="/images/icon-arrow-up.svg" class="arrow-up"> 
+    <img src="/images/icon-arrow-down.svg" class="arrow-down"> </a>
+
+    <ul class="dropdown-list">
+
+      <li class="dropdown-link">
+        <a href="#" class="todolist">
+          <img src="/images/icon-todo.svg">
+          <span> Todo List</span>
+        </a>
+      </li>
+
+      <li class="dropdown-link">
+        <a href="#" class="calendar">
+          <img src="/images/icon-calendar.svg">
+          <span> Calendar </span>
+        </a>
+      </li>
+
+      <li class="dropdown-link">
+        <a href="#" class="reminder">
+          <img src="/images/icon-reminders.svg">
+          <span> reminder </span>
+        </a>
+      </li>
+
+      <li class="dropdown-link">
+        <a href="#" class="planning">
+          <img src="/images/icon-planning.svg">
+          <span> Planning </span>
+        </a>
+      </li>
+    </ul>
+    </li>
+
+    <li class="nav-link">
+    <a href="#" class="dropdown"> 
+      <span> Company </span>
+      <img src="/images/icon-arrow-up.svg" class="arrow-up">
+      <img src="/images/icon-arrow-down.svg" class="arrow-down">
+     </a>
+
+     <ul class="dropdown-list">
+      <li class="dropdown-link">
+        <a href="#" class="history">History</a>
+        <a href="#" class="ourteam"> Our Team</a>
+        <a href="#" class="blog">Blog</a>
+      </li>
+     </ul>
+     </li>
+
+     <li class="nav-link">
+    <a href="#" class="careers"> Careers </a>
+    </li>
+
+    <li class="nav-link">
+    <a href="#" class="about"> About </a>
+    </li>
+  </ul>
+
+    <div class="registration">
+    <button> Login </button>
+    <button> Register </button>
+    </div>
+    </nav> 
+  </header>
+  
+  <main class="container">
+    <picture>
+      <source media="(max-width:465px)" srcset="images/image-hero-desktop.png">
+      <img src="/images/image-hero-mobile.png">
+    </picture>
+
+    <section class="text-content">
+
+     <h1>Make remote work </h1>
+
+    <p> Get your team in sync, no matter your location. Streamline processes, create team rituals, and watch productivity soar. </p>
+
+   <button> Learn more </button>
+
+   <div class="clients">
+    <img src="/images/client-databiz.svg">
+    <img src="/images/client-audiophile.svg">
+    <img src="/images/client-meet.svg">
+    <img src="/images/client-maker.svg">
+   </div>
+
+    </section>
+  </main>
+
+  <footer>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">cutecoder96</a>
+  </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
